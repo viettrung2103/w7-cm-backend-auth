@@ -9,7 +9,7 @@ const {
 } = require("./middleware/customMiddleware");
 const connectDB = require("./config/db");
 const cors = require("cors");
-const nodemon = require("nodemon");
+const morgan = require("morgan");
 
 // Middlewares
 app.use(cors());
